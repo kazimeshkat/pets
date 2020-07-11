@@ -1,0 +1,250 @@
+/* header with logo and navbar */
+
+header {
+    position: static;
+    height: 277px;
+}
+
+#headercontainer {
+    height: 206px;
+    flex-direction: column;
+}
+
+/* part.1 (logo)*/
+#headerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headerlogo img{
+    position: static;
+    height: 120px;
+    width: 452px;
+}
+/* part.2 (menu)*/
+
+nav ul {
+    margin-block-start: 0;
+    padding: 0;
+    justify-content: space-between;
+    width: 1105px;
+}
+ul li{
+    padding: 0px;
+}
+ul li a {
+    font-size: 42px;
+    
+}
+#dropdownul {
+    display: none;
+}
+/* section.1 */
+ 
+#sec1cont {
+    height: 732px;
+    top: 31px;
+}
+
+
+/* part.1 */
+
+.headingtext {
+    font-size: 82px;
+    line-height: 84px;
+    margin-bottom: 0px;
+}
+
+#sec1hdtext span {
+    font-size: 95px;
+    
+}
+/* part.2 */
+#sec1subtext{
+    font-size: 41px;
+    margin: 15px 0px;
+    letter-spacing: 1px;
+}
+
+/* part.3 */
+
+.btn {
+    font-size: 34px;
+    border-radius: 43px;
+} 
+/* section.2 */
+
+.sectionpart {
+    height: 2200px;
+}
+
+.seccontainer {
+    flex-direction: column;
+    height: 1895px;
+
+}
+
+.sec2subcontainer {
+    height: 500px;
+}
+
+/* part.2 */
+
+.sec2img {
+    height: 200px;
+    width: 216px;
+}
+
+/* part.3 */
+
+.sec2hdtext {
+    font-size: 53px;
+    margin-top: 45px;
+    margin-bottom: 26px;
+}
+
+.sec2subtext {
+    font-size: 36px;
+    line-height: 1;
+    margin: 0;
+}
+/* section.3 */
+
+#sec3 {
+    display: flex;
+    align-items: center;
+    height: 1452px;
+}
+#sec3cont{
+    position: static;
+    height: 1313px;
+}
+.sec3subcontainer {
+    width: 980px;
+    text-align: center;
+    height: 651px;
+}
+
+/* part.1 */
+.sec3img {
+    height: 500px;
+    width: 509px;
+    display: block;
+    margin: auto;
+}
+
+/* part.2 */
+
+.sec3subcontainer .headingtext {
+    font-size: 84px;
+}
+
+.sec3subcontainer .headingtext span {
+    font-size: 84px;
+}
+
+.sec3subcontainer .subtext {
+    font-size: 41px;
+}
+
+.sec3subcontainer .btn {
+    font-size: 51px;
+}
+/* section.4 */
+
+#sec4 {
+    display: flex;
+    align-items: center;
+    height: 1308px;
+}
+#sec4cont{
+    position: static;
+    height: 1253px;}
+
+.sec4subcontainer {
+    width: 980px;
+    text-align: center;
+    height: 574px;
+}
+
+/* part.1 */
+
+.sec4subcontainer .headingtext {
+    font-size: 84px;
+}
+
+.sec4subcontainer .headingtext span {
+    font-size: 84px;
+}
+
+.sec4subcontainer .subtext {
+    font-size: 41px;
+}
+
+.sec4subcontainer .btn {
+    font-size: 51px;
+}
+
+/* part.2 */
+
+.sec4img {
+    height: 500px;
+    width: 509px;
+    margin-top: 30px;
+}
+
+/* section.5 */
+#sec5{
+    height: 1083px;
+}
+#sec5cont {
+    flex-direction: column;
+    height: 671px;
+    justify-content: space-between;
+}
+
+.sec5subcontainer {
+    height: 223px;
+}
+
+/* part.2 */
+
+.undersubcont {
+    height: 146px;
+    width: 275px;
+}
+
+
+.sec5hdtext {
+    font-size: 27px;
+}
+
+.sec5subtext {
+    font-size: 27px;
+}
+/* section.6 */
+
+#sec6 {
+    height: 454px;
+}
+
+#sec6container2 {
+    display: none;
+}
+
+/* part.1 */
+
+#sec6hdtext {
+    font-size: 84px;
+}
+
+.sec6subtext {
+    font-size: 41px;
+}
+/* section.7 */
+#sec7{
+    height: 75px;
+}
+#sec7 p{
+    font-size: 25px;
+}

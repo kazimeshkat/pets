@@ -1,0 +1,44 @@
+#sec4 {
+    background-color: #def8ff;
+}
+
+.sec4subcontainer {
+    margin: 0px 50px;
+    text-align: left;
+    height: 414px;
+    width: 451px;
+    flex-direction: column;
+}
+
+/* part.1 */
+
+.sec4subcontainer .headingtext {
+    position: static;
+    margin-bottom: 0px;
+    color: #0073cc;
+}
+
+.sec4subcontainer .headingtext span {
+    margin-top: 0px;
+    font-size: 69px;
+    font-family: "Poppins", sans-serif;
+    color: #596c7b;
+    font-weight: 800;
+}
+
+.sec4subcontainer .subtext {
+    color: #0073cc;
+}
+
+.sec4subcontainer .btn {
+    color: #fff;
+    background-color: #0073cc;
+}
+
+/* part.2 */
+
+.sec4img {
+    height: 390px;
+    width: 400px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
